@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&family=Playfair:wght@300&display=swap" rel="stylesheet">
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    
+        <link rel="stylesheet" href="home1.css">
+    </head>
+    <body>
+        <div class="navbar" >
+            <div class="navlogo">
+                <img src="logo.png" height="70px">
+            </div>
+            <div class="navcenter"></div>
+            <div class="navlinks" id="menu">
+                <a href="home.html" class="link">Home</a>
+                <a href="about.html" class="link">About</a>
+                <a href="list.aspx" class="link">List</a>
+                <a href="contact.aspx" class="link">Contact</a>
+                <a href="login.aspx" class="link">Logout</a>
+            </div>
+            <div class="mobile-menu" onclick="foldMenu();">
+                <i class="fa fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="listcontain">
+            <h1>Chinese Cuisine</h1>
+        </div>
+        <br>
+        <div class="boxrecipes">
+            <div class="recipes">
+                <div class="bigcard">
+                    <a href="fry.html" class="cardlink">
+                        <img src="chicken fry.png" class="card">
+                        <h3>Chicken Fry</h3>
+                        <p>Prep : 15min | Cook : 30min</p>
+                    </a>
+                </div>
+                <div class="bigcard">
+                    <a href="noodles.html" class="cardlink">
+                        <img src="noodles.png" class="card">
+                        <h3>Chicken Lo Mein Stir-Fry</h3>
+                        <p>Prep : 30min | Cook : 15min</p>
+                    </a>
+                </div>
+                <div class="bigcard">
+                    <a href="frenchfry.html" class="cardlink">
+                        <img src="french fry.png" class="card">
+                        <h3>French Fry</h3>
+                        <p>Prep : 20min | Cook : 30min</p>
+                    </a>
+                </div>
+            </div>
+        </div>   
+        <div class="footer">
+            <p>©2023 <span style="color:#951a1d">MyRecipes</span>  by <span style="color:#f15b2b">Lamia 1909020</span></p>
+        </div>
+
+        <script type="text/javascript"> 
+        function foldMenu(){
+                let menu = document.getElementById('menu');
+                    menu.classList.toggle('active');
+            }
+            </script>
+    </body>
+</html>

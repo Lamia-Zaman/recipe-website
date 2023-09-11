@@ -1,0 +1,106 @@
+body{
+    font-family: 'Jost', sans-serif;
+    background-image: url(Cooking.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.index .line{
+    align-self:start;
+    margin-left: 50px; 
+    font-size: 3em; 
+    color: grey;
+}
+.box{
+    text-align: center;
+    width:350px;
+    height: 500px;
+    /* margin: 50px 600px 0px 600px; */
+    border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+    background-color: gray;
+    opacity: 0.9;
+}
+.title{
+    color: white;
+    padding: 80px 0px;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#email{
+    border-radius: 5px;
+    height: 30px;
+    margin: 10px;
+    width: 60%;
+}
+
+input::placeholder{
+    color: #000;
+}
+#pass{
+        border-radius: 5px;
+        height: 30px;
+        margin: 10px;
+        width: 60%;
+}
+#username{
+    border-radius: 5px;
+        height: 30px;
+        margin: 10px;
+        width: 60%;
+}
+
+#chk{
+    size:10px;
+}
+
+.remember{
+    color: white;
+    padding-right:50px ;
+}
+
+a{
+    color: black;
+}
+
+.btn{
+    background-color: aliceblue;
+    font-weight: bold;
+    border: none;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 40px;
+    transition: .5s ease-in;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: lightgray;
+}
+
+.icon{
+    background: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#checkbox{
+    margin: 0px;
+}
+
+@media(max-width:768px)
+{
+    body{
+        flex-direction: column;
+    }
+    .index .line{
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,63 @@
+body{
+    background-color: grey;
+    font-family: 'Jost', sans-serif;
+}
+
+.box1{
+    text-align: right;
+}
+
+#email{
+    border-radius: 5px;
+    height: 30px;
+    margin: 10px;
+    width: 50%;
+}
+
+#pass{
+        border-radius: 5px;
+        height: 30px;
+        margin: 10px;
+        width: 50%;
+}
+#username{
+    border-radius: 5px;
+        height: 30px;
+        margin: 10px;
+        width: 50%;
+}
+
+.signup{
+    color: white;
+    padding-bottom: 10px;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+button{
+    background-color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    width: 20%;
+    border-radius: 5px;
+    height: 40px;
+    transition: .5s ease-in;
+    cursor: pointer;
+    margin:auto;
+}
+
+button:hover{
+    background-color: lightgray;
+}
+
+a{
+    color: black;
+}
+
+.cntr{
+    text-align: center;
+}

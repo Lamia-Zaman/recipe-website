@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&family=Playfair:wght@300&display=swap" rel="stylesheet">
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    
+        <link rel="stylesheet" href="home1.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navlogo">
+                <img src="logo.png" height="70px">
+            </div>
+            <div class="navcenter"></div>
+            <div class="navlinks" id="menu">
+                <a href="home.html" class="link">Home</a>
+                <a href="about.html" class="link">About</a>
+                <a href="list.aspx" class="link">List</a>
+                <a href="contact.aspx" class="link">Contact</a>
+                <a href="login.aspx" class="link">Logout</a>
+            </div>
+            <div class="mobile-menu" onclick="foldMenu();">
+                <i class="fa fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <br>
+        <div class="listcontain">
+            <h1>Bengali Cuisine</h1>
+        </div>
+        <div class="boxrecipes">
+            <div class="recipes">
+                <div class="bigcard">
+                    <a href="begun.html" class="cardlink">
+                        <img src="begun vaja.png" class="card">
+                        <h3>Begun Vaja</h3>
+                        <p>Prep : 15min | Cook : 30min</p>
+                    </a>
+                </div>
+                <div class="bigcard">
+                    <a href="curry.html" class="cardlink">
+                        <img src="chicken curry.png" class="card">
+                        <h3>Chicken Curry</h3>
+                        <p>Prep : 30min | Cook : 1hour</p>
+                    </a>
+                </div>
+                <div class="bigcard">
+                    <a href="" class="cardlink">
+                        <img src="chingri.png" class="card">
+                        <h3>Chingri Vuna</h3>
+                        <p>Prep : 20min | Cook : 1hour</p>
+                    </a>
+                </div>
+                <div class="bigcard">
+                    <a href="" class="cardlink">
+                        <img src="lentil.png" class="card">
+                        <h3>Lentil</h3>
+                        <p>Prep : 20min | Cook : 1hour</p>
+                    </a>
+                </div>
+                
+                
+            </div>
+        </div>   
+        <div class="footer">
+            <p>©2023 <span style="color:#951a1d">MyRecipes</span>  by <span style="color:#f15b2b">Lamia 1909020</span></p>
+        </div>
+        <script type="text/javascript"> 
+            function foldMenu(){
+                    let menu = document.getElementById('menu');
+                        menu.classList.toggle('active');
+                }
+                </script>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Playfair:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="home1.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navlogo">
+            <img src="logo.png" height="70px">
+        </div>
+        <div class="navcenter"></div>
+        <div class="navlinks" id="menu">
+            <a href="home.html" class="link">Home</a>
+            <a href="about.html" class="link"><u>About</u></a>
+            <a href="list.aspx" class="link">List</a>
+
+            <a href="contact.aspx" class="link">Contact</a>
+            <a href="login.aspx" class="link">Logout</a>
+        </div>
+        <div class="mobile-menu" onclick="foldMenu();">
+            <i class="fa fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="aboutcontainer">
+        <div class="parallax">
+            <div class="background bg-1"></div>
+            <h1>Mouthwatering Recipes</h1>
+
+        </div>
+        <div class="normal">
+            <h1>Bengali Recipes</h1>
+        </div>
+        <div class="parallax">
+            <div class="background bg-2"></div>
+            <h1>Chinese Recipes</h1>
+        </div>
+        <div class="normal">
+            <h1>Enjoy Delicious Meals</h1>
+        </div>
+        <div class="parallax">
+            <div class="background bg-3"></div>
+            <h1> with your family, friends</h1>
+        </div>
+        <div class="footer">
+            <p>©2023 <span style="color:#951a1d">MyRecipes</span>  by <span style="color:#f15b2b">Lamia 1909020</span></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>©2023 <span style="color:#951a1d">MyRecipes</span>  by <span style="color:#f15b2b">Lamia 1909020</span></p>
+    </div>
+    <script>
+            function foldMenu(){
+                let menu = document.getElementById('menu');
+                    menu.classList.toggle('active');
+            }
+    </script>
+</body>
+<style>
+    body {
+        overflow-y: hidden;
+    }
+</style>
+</html>

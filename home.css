@@ -1,0 +1,495 @@
+﻿
+body {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Playfair', serif;
+    margin: 0 5%;
+    overflow-x: hidden;
+}
+
+.site-header {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.navbar {
+    padding: 6px 0;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1410px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, .075);
+}
+
+
+.navlink {
+    display: flex;
+}
+
+.link {
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: #951a1d;
+    text-decoration: none;
+    transition: 0.3s ease-in-out all;
+}
+
+    .link:hover {
+        color: #f15b2b;
+    }
+
+.coverpic {
+    width: 100%;
+    height: 40vh;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.glass {
+    position: fixed;
+    right: 20px;
+    top: 35px;
+    flex-basis: 40%;
+    cursor: pointer;
+}
+
+#find {
+    width: 20%;
+    padding: 0px 0px 0px 10px;
+    border: 1px solid #951a1d;
+    border-radius: 3px;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: fixed;
+    right: 540px;
+    top: 33px;
+    display: none;
+}
+
+    #find::placeholder {
+        color: #951a1d;
+        opacity: 0.2;
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+.recipes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bigcard {
+    margin: 50px 10px 0px 10px;
+    flex-basis: 300px;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 0.25rem;
+}
+
+.card {
+    width: 100%;
+    height: 300px;
+}
+
+.cardlink {
+    text-decoration: none;
+    color: black;
+}
+
+    .cardlink p {
+        margin-bottom: 70px;
+        margin-top: 0.25rem;
+        line-height: 1;
+    }
+
+    .cardlink h3, p {
+        margin-left: 10px;
+    }
+
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    padding: 5px;
+    text-align: center;
+    margin-top: 50px;
+    z-index: 5;
+}
+
+.box1 {
+    display: flex;
+}
+
+.leftbox1 {
+    flex-basis: 30%;
+}
+
+.pic {
+    width: 100%;
+    height: fit-content;
+}
+
+.rightbox1 {
+    flex-basis: 70%;
+    margin-left: 10px;
+}
+
+.header {
+    font-size: 2em;
+    color: #951a1d;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.icon {
+    text-align: center;
+}
+
+    .icon i {
+        color: #951a1d;
+        font-size: 2em;
+    }
+
+.tag {
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+    .tag a {
+        color: white;
+        background-color: #951a1d;
+        padding: 0.5rem 0.5rem;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: 0.3s ease-in-out all;
+    }
+
+        .tag a:hover {
+            background-color: #f15b2b;
+        }
+
+.box2 {
+    display: flex;
+}
+
+.leftbox2 {
+    width: 60%;
+}
+
+    .leftbox2 h3 {
+        color: #951a1d;
+    }
+
+.rightbox2 {
+    padding-left: 10%;
+    width: 30%;
+    float: left;
+}
+
+
+
+.tagbox {
+    height: 545px;
+}
+
+.type {
+    padding: 50px;
+    background-color: #951a1d;
+    float: left;
+    width: 20%;
+    margin-left: 95px;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #00000035;
+    transition: 0.3s ease-in-out all;
+}
+
+    .type a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 2em;
+    }
+
+    .type:hover {
+        background-color: #f15b2b;
+    }
+
+.bengalirecipes {
+    height: 525px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+.listcontain {
+    padding: 10px 0px;
+}
+
+    .listcontain h1 {
+        font-weight: bolder;
+        letter-spacing: 3px;
+        color: #951a1d;
+        transition: all 0.5s ease-in-out;
+        font-size: 2.5em;
+        border-bottom: 2px dashed #951a1d;
+    }
+
+        .listcontain h1:hover {
+            color: #f15b2b;
+            border-bottom: 2px dashed #f15b2b;
+        }
+
+.listform {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.listitem h3 {
+    color: #951a1d;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.listitem input {
+    padding: 20px 150px 20px 15px;
+    margin: 10px 0px;
+    border-radius: 30px;
+    background: transparent;
+    border-color: #951a1d;
+    transition: all 0.5s ease-in-out;
+}
+
+    .listitem input:hover {
+        border-color: #f15b2b;
+    }
+
+    .listitem input[type=submit] {
+        padding: 5px 10px;
+        background-color: #951a1d;
+        color: white;
+        margin: 20px 10px;
+        cursor: pointer;
+    }
+
+        .listitem input[type=submit]:hover {
+            background-color: #f15b2b;
+            color: white;
+            border-color: #f15b2b;
+        }
+
+.listitem button {
+    padding: 5px 10px;
+    background-color: #951a1d;
+    border-radius: 30px;
+    color: white;
+    margin-left: 50%;
+    cursor: pointer;
+}
+
+
+.aboutcontainer {
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+    .aboutcontainer .parallax {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        transform-style: preserve-3d;
+    }
+
+    .aboutcontainer .background {
+        position: absolute;
+        width: 90vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        text-align: center;
+        transform: translateZ(-1px) scale(2);
+    }
+
+.bg-1 {
+    background: url(9.jpg) center/cover;
+}
+
+.bg-2 {
+    background: url(10.jpg) center/cover;
+}
+
+.bg-3 {
+    background: url(4.jpg) center/cover;
+}
+
+.normal {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.aboutcontainer h1 {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    word-spacing: 100vw;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.parallax h1 {
+    text-shadow: 0 10px 10px rgb(0,0,0,0.1);
+}
+
+.parallax:nth-child(1) h1 {
+    text-align: left;
+    color: black;
+}
+
+.normal h1 {
+    color: #951a1d;
+}
+
+.contactcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .contactcontainer .txt {
+        font-size: 20px;
+    }
+
+    .contactcontainer h1, i {
+        color: #951a1d;
+    }
+
+.contacticon {
+    display: flex;
+    justify-content: space-around;
+}
+
+    .contacticon i {
+        font-size: 50px;
+        transition: all 0.3s ease-in-out;
+    }
+
+        .contacticon i:hover {
+            color: #f15b2b;
+        }
+
+.contactcontainer img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.qa h1 {
+    color: #951A1D;
+}
+
+.qa h3 {
+    color: #F15B2B;
+}
+
+.comment {
+    color: #951A1D;
+    border-color: #951A1D;
+    height: 100px;
+    width: 500px;
+}
+
+    .comment::placeholder {
+        font-size: 16px;
+    }
+
+@media(max-width:1100px) {
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        right: 30px;
+        top: 29px;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #951A1D;
+        &:hover
+
+{
+    color: #F15B2B;
+}
+
+}
+
+.navlinks {
+    display: none;
+}
+
+    .navlinks.active {
+        display: flex !important;
+        background: #fff;
+        width: 100%;
+    }
+
+        .navlinks.active .link {
+            margin: 2px 0;
+            padding: 5px 15px;
+            background-color: rgb(128, 128, 128,0.1);
+        }
+
+.navlogo {
+    margin-left: 10px;
+}
+
+.glass {
+    position: fixed;
+    right: 70px;
+    top: 33px;
+    cursor: pointer;
+}
+
+#find {
+    position: fixed;
+    right: 90px;
+    top: 30px;
+    width: 25%;
+    display: none;
+}
+
+    #find::placeholder {
+        font-size: 10px;
+    }
+}
